@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head><meta charset="utf-8"><title>Check JS</title></head>
+  <body>
+    <h1>check</h1>
+    <script>
+      (async () => {
+        const link = 'https://webhook.site/49ec7d6e-4900-43b9-90db-ca9cb416ee5a';
+        try {
+          await fetch(link);
+        } catch (e) {
+          // игнорируем ошибки
+        }
+      })();
+    </script>
+  </body>
+</html>
